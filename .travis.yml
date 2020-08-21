@@ -19,7 +19,7 @@ before_install:
   - docker build -t 000excel/multi-client-test -f ./client/Dockerfile.dev ./client
 
 script:
-  - docker run 000excel/multi-client-test npm run test
+  - docker run 000excel/multi-client-test npm run test:unit
 
 deploy:
   provider: script
