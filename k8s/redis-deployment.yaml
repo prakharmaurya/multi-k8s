@@ -13,7 +13,7 @@ spec:
         component: redis
     spec:
       containers:
-        - name: redis-deployment
+        - name: redis
           image: redis
           resources:
             limits:

@@ -13,7 +13,7 @@ spec:
         component: server
     spec:
       containers:
-        - name: server-deployment
+        - name: server
           image: 000excel/multi-server
           env:
             - name: REDIS_HOST
